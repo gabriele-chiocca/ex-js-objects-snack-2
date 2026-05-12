@@ -5,8 +5,8 @@
 //Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
 
 //RISPOSTA
-console.log(hamburger.name); // "Double Cheese Burger"
-console.log(secondBurger.name); // "Double Cheese Burger"
+// console.log(hamburger.name); Riposta: "Double Cheese Burger"
+// console.log(secondBurger.name); Riposta : "Double Cheese Burger"
 
 //Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
 
