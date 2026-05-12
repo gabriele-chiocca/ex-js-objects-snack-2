@@ -62,3 +62,17 @@ In questo caso il metodo miglioe è lo structuredClone ovvero const secondRestau
 
 
 */
+
+// Question 5 Bonus
+
+/*
+
+Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
+
+
+console.log(hamburger.maker.name); RISPOSTA "Chef Hyur"
+console.log(secondBurger.maker.name); RISPOSTA "Chef Hyur"
+console.log(hamburger.maker.restaurant.name); RISPOSTA "Hyur's II"
+console.log(secondBurger.maker.restaurant.name); RISPOSTA "Hyur's II"
+
+*/
