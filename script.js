@@ -47,6 +47,11 @@ Sono stati creati 3 oggetti:
 3) thirdBurger
 
 
+Correction :
+
+Sono stati creati 9 oggetti, poichè ci sono gli oggetti annidati interni
+
+
 */
 
 // Question 4
