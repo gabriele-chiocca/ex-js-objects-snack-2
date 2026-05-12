@@ -76,3 +76,17 @@ console.log(hamburger.maker.restaurant.name); RISPOSTA "Hyur's II"
 console.log(secondBurger.maker.restaurant.name); RISPOSTA "Hyur's II"
 
 */
+
+// Question 6 Bonus
+
+/*
+
+
+Qual è il metodo migliore per clonare l’oggetto chef, e perché?
+
+
+Vedendo il codice, penso che il metodo migliore sia fare più shallow copy poichè ci sono funzioni all'interno degli oggetti riportati e soprattutto conosciamo perfettamente la struttura dell'oggeto, direi di farne più perchè ci sono funzioni innestate quindi volendo si potrebbe fare:
+
+const copyChef = {...chef, restaurant: {...restaruant}, address: {...address}}
+
+*/
