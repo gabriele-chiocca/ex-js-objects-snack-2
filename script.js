@@ -31,6 +31,9 @@ Ci sono due oggetti realizzati l'oggetto principale al quale si fa riferimento i
 
 /*
 
+
+Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+
 Sono stati creati 3 oggetti:
 
 1) hamburger
@@ -38,6 +41,24 @@ Sono stati creati 3 oggetti:
 2) secondBurger
 
 3) thirdBurger
+
+
+*/
+
+// Question 4
+
+/*
+
+
+Qual è il metodo migliore per clonare l’oggetto chef, e perché?
+
+Per clonare l'oggetto chef il metodo migliore è lo spread operator quindi ad esempio const secondChef = {...chef}; poichè è inclusa una arrow function e con lo spread operator possiamo riportarla
+
+
+Qual è il metodo migliore per clonare l’oggetto restaurant, e perché?
+
+In questo caso il metodo miglioe è lo structuredClone ovvero const secondRestaurant = structuredClone(restaurant); poichè comprende dati complessi come new Date che con il metodo stringify diventerebbero delle stringhe non parsabili correttamente.
+
 
 
 */
