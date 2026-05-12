@@ -87,6 +87,6 @@ Qual è il metodo migliore per clonare l’oggetto chef, e perché?
 
 Vedendo il codice, penso che il metodo migliore sia fare più shallow copy poichè ci sono funzioni all'interno degli oggetti riportati e soprattutto conosciamo perfettamente la struttura dell'oggeto, direi di farne più perchè ci sono funzioni innestate quindi volendo si potrebbe fare:
 
-const copyChef = {...chef, restaurant: {...restaruant}, address: {...address}}
+const copyChef = {...chef, restaurant: {...chef.restaurant}, address: {...chef.address}}
 
 */
