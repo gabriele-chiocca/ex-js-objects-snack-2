@@ -26,3 +26,18 @@ Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codic
 Ci sono due oggetti realizzati l'oggetto principale al quale si fa riferimento in hamburger e la shallow copy creata in secondBurger
 
 */
+
+//Question 3
+
+/*
+
+Sono stati creati 3 oggetti:
+
+1) hamburger
+
+2) secondBurger
+
+3) thirdBurger
+
+
+*/
